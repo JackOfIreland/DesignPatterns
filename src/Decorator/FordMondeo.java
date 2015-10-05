@@ -8,6 +8,6 @@ public class FordMondeo extends Car {
     }
 
     public String getDescription() {
-        return "Ford Mondeo, with ";
+        return "Ford Mondeo with: ";
     }
 }

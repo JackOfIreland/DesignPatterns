@@ -9,7 +9,7 @@ public class HeatedSeats extends CarDecorator {
 
     @Override
     public String getDescription() {
-        return car.getDescription() + ", Heated Seats,  ";
+        return car.getDescription() + ", Heated Seats";
     }
 
     @Override

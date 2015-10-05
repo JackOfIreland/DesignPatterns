@@ -47,8 +47,13 @@ public class DesignACar {
         if (seatsChoice == 0){
             c = new HeatedSeats(c);
         }
+
+        String fullDescription = c.getDescription();
+        if((seatsChoice == 1)&&(engineChoice == 1)&&(entertainmentChoice==1)) {
+            fullDescription = fullDescription + "no add-ons";
+        }
         double totalCost = c.cost();
-        JOptionPane.showMessageDialog(null,"Your car details are as follows:\n" + c.getDescription() + "\n\nThe total cost of your car is €" + Double.toString(totalCost));
+        JOptionPane.showMessageDialog(null,"Your car details are as follows:\n" + fullDescription + "\n\nThe total cost of your car is €" + Double.toString(totalCost));
 
 
 

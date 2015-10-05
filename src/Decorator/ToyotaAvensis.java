@@ -7,6 +7,6 @@ public class ToyotaAvensis extends Car {
     }
 
     public String getDescription() {
-        return "Toyota Avensis, with ";
+        return "Toyota Avensis with: ";
     }
 }
