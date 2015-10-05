@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Decorator</OriginalElement>
+  <nodes>
+    <node x="456.5" y="0.0">Decorator.Car</node>
+    <node x="180.0" y="280.0">Decorator.HybridEngine</node>
+    <node x="174.5" y="154.0">Decorator.CarDecorator</node>
+    <node x="729.5" y="140.0">Decorator.ToyotaAvensis</node>
+    <node x="547.5" y="140.0">Decorator.VolkswagonGolf</node>
+    <node x="360.0" y="280.0">Decorator.EntertainmentSystem</node>
+    <node x="365.5" y="140.0">Decorator.FordMondeo</node>
+    <node x="0.0" y="471.0">Decorator.DesignACar</node>
+    <node x="0.0" y="280.0">Decorator.HeatedSeats</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Decorator.ToyotaAvensis" target="Decorator.Car">
+      <point x="0.0" y="-45.0" />
+      <point x="810.5" y="110.0" />
+      <point x="598.25" y="110.0" />
+      <point x="60.75" y="45.0" />
+    </edge>
+    <edge source="Decorator.CarDecorator" target="Decorator.Car">
+      <point x="0.0" y="-31.0" />
+      <point x="260.0" y="110.0" />
+      <point x="476.75" y="110.0" />
+      <point x="-60.75" y="45.0" />
+    </edge>
+    <edge source="Decorator.EntertainmentSystem" target="Decorator.CarDecorator">
+      <point x="0.0" y="-73.0" />
+      <point x="447.0" y="255.0" />
+      <point x="317.0" y="255.0" />
+      <point x="57.0" y="31.0" />
+    </edge>
+    <edge source="Decorator.HeatedSeats" target="Decorator.CarDecorator">
+      <point x="0.0" y="-73.0" />
+      <point x="80.0" y="255.0" />
+      <point x="203.0" y="255.0" />
+      <point x="-57.0" y="31.0" />
+    </edge>
+    <edge source="Decorator.HybridEngine" target="Decorator.CarDecorator">
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="Decorator.VolkswagonGolf" target="Decorator.Car">
+      <point x="0.0" y="-45.0" />
+      <point x="628.5" y="120.0" />
+      <point x="557.75" y="120.0" />
+      <point x="20.25" y="45.0" />
+    </edge>
+    <edge source="Decorator.FordMondeo" target="Decorator.Car">
+      <point x="0.0" y="-45.0" />
+      <point x="446.5" y="120.0" />
+      <point x="517.25" y="120.0" />
+      <point x="-20.25" y="45.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="356.5" y="283.0" />
+  <SelectedNodes>
+    <node>Decorator.HeatedSeats</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
