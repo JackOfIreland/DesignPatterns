@@ -48,7 +48,7 @@ public class DesignACar {
             c = new HeatedSeats(c);
         }
         double totalCost = c.cost();
-        JOptionPane.showMessageDialog(null,"The total cost of your car is €" + Double.toString(totalCost));
+        JOptionPane.showMessageDialog(null,"Your car details are as follows:\n" + c.getDescription() + "\n\nThe total cost of your car is €" + Double.toString(totalCost));
 
 
 

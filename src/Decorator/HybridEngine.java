@@ -9,7 +9,7 @@ public class HybridEngine extends CarDecorator {
 
     @Override
     public String getDescription() {
-        return null;
+        return car.getDescription() + ", with a Hybrid Engine ";
     }
 
     @Override

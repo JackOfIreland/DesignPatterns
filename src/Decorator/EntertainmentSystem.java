@@ -9,7 +9,7 @@ public class EntertainmentSystem extends CarDecorator {
 
     @Override
     public String getDescription() {
-        return null;
+        return car.getDescription() + "an Enterainment System ";
     }
 
     @Override
