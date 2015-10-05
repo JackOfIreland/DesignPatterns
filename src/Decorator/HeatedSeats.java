@@ -3,6 +3,10 @@ package Decorator;
 public class HeatedSeats extends CarDecorator {
     Car car;
 
+    public HeatedSeats(Car car) {
+        this.car = car;
+    }
+
     @Override
     public String getDescription() {
         return null;
@@ -10,6 +14,6 @@ public class HeatedSeats extends CarDecorator {
 
     @Override
     public double cost() {
-        return 0;
+        return 700 + car.cost();
     }
 }

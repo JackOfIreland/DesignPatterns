@@ -3,6 +3,10 @@ package Decorator;
 public class HybridEngine extends CarDecorator {
     Car car;
 
+    public HybridEngine(Car car) {
+        this.car = car;
+    }
+
     @Override
     public String getDescription() {
         return null;
@@ -10,6 +14,6 @@ public class HybridEngine extends CarDecorator {
 
     @Override
     public double cost() {
-        return 0;
+        return 2500 + car.cost();
     }
 }
