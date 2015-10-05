@@ -1,6 +1,8 @@
 package Decorator;
 
 public class EntertainmentSystem extends CarDecorator {
+    Car car;
+
     @Override
     public String getDescription() {
         return null;

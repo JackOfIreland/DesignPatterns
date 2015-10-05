@@ -1,6 +1,8 @@
 package Decorator;
 
 public class HeatedSeats extends CarDecorator {
+    Car car;
+
     @Override
     public String getDescription() {
         return null;
