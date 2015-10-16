@@ -1,7 +1,5 @@
-package decoratorAfter;
+package decoratorBefore;
 
-
-import decoratorBefore.Car;
 
 public class FordMondeo extends Car {
     @Override
@@ -10,6 +8,6 @@ public class FordMondeo extends Car {
     }
 
     public String getDescription() {
-        return "Ford Mondeo with: ";
+        return "Ford Mondeo with no optional extras";
     }
 }

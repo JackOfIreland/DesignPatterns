@@ -1,6 +1,4 @@
-package decoratorAfter;
-
-import decoratorBefore.Car;
+package decoratorBefore;
 
 public class VolkswagonGolf extends Car {
     @Override
@@ -9,7 +7,7 @@ public class VolkswagonGolf extends Car {
     }
 
     public String getDescription() {
-        return "Volkswagon golf with: ";
+        return "Volkswagon golf with no extras ";
     }
 
 

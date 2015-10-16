@@ -1,5 +1,7 @@
 package decoratorAfter;
 
+import decoratorBefore.Car;
+
 public class EntertainmentSystem extends CarDecorator {
     Car car;
 

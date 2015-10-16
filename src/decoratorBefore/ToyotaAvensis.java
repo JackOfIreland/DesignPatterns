@@ -1,5 +1,4 @@
-package decoratorAfter;
-
+package decoratorBefore;
 
 
 public class ToyotaAvensis extends Car {
