@@ -1,4 +1,4 @@
-package Decorator;
+package decoratorAfter;
 
 public abstract class Car {
 

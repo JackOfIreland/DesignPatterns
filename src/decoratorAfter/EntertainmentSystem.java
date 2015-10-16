@@ -1,4 +1,4 @@
-package Decorator;
+package decoratorAfter;
 
 public class EntertainmentSystem extends CarDecorator {
     Car car;
